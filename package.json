@@ -1,0 +1,36 @@
+{
+  "name": "industry-251-attendance",
+  "version": "1.0.0",
+  "description": "Industry-251 Employee Attendance System",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "keywords": [
+    "attendance",
+    "industry-251",
+    "employee",
+    "express",
+    "nodejs"
+  ],
+  "author": "Guesh Embaye",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.6.1",
+    "express": "^4.21.2",
+    "express-session": "^1.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^2.0.2",
+    "mysql2": "^3.14.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
